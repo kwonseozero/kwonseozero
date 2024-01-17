@@ -11,6 +11,6 @@ public class HomeController {
 	@RequestMapping("/welcome")
 	public String welcome() {
 		//return "<h1>Welcome</h1>";
-		return "/WEB-INF/views/welcome.jsp";
+		return "/WEB-INF/views/welcome.jsp";//화면주소
 	}
 }
